@@ -430,3 +430,26 @@ FodyWeavers.xsd
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
 
+# IntelliJ / IDEs / AI Agents
+.agents/
+.gemini/
+.idea/
+*.iml
+
+# Java / Android / Gradle
+*.class
+.gradle/
+local.properties
+
+# C / C++ compiled binaries and data files
+*.o
+*.out
+*.exe
+*.bin
+*.dSYM/
+IPC/*
+!IPC/*.c
+!IPC/*.h
+!IPC/*.txt
+!IPC/*.md
+
