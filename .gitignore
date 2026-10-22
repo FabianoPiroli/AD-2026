@@ -447,11 +447,12 @@ local.properties
 *.exe
 *.bin
 *.dSYM/
-IPC/*
-!IPC/*.c
-!IPC/*.h
-!IPC/*.txt
-!IPC/*.md
+IPC/**
+!IPC/**/
+!IPC/**/*.c
+!IPC/**/*.h
+!IPC/**/*.txt
+!IPC/**/*.md
 
 #interpreter
 .venv/
