@@ -453,3 +453,6 @@ IPC/*
 !IPC/*.txt
 !IPC/*.md
 
+#interpreter
+.venv/
+venv/
